@@ -1,0 +1,24 @@
+{
+  "name": "@visr/documenter-jl-search-testing",
+  "version": "1.0.0",
+  "description": "Trying out different options to get good and fast search results with Documenter.jl, see https://github.com/JuliaDocs/Documenter.jl/pull/560",
+  "main": "search.js",
+  "scripts": {
+    "test": "jest",
+    "perf": "node ./bench.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "jest": "21.2.1"
+  },
+  "dependencies": {
+    "jquery": "3.1.1",
+    "lodash": "4.17.4",
+    "lunr": "2.1.3"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
